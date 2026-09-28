@@ -1,0 +1,66 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: Azure;
+    color: brown;
+    margin: 0;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+/* Class Selector */
+.highlight {
+    text-shadow: 5px 5px 5px black;
+}
+
+/* ID Selector */
+#main-header {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: yellow;
+}
+
+/* ส่วนเนื้อหา */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* รูป */
+img {
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}

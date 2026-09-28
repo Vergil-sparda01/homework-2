@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ของฉัน</title>
+</head>
+<body>
+    <header>
+        <h1>กีรติ วงศ์ใหญ่</h1>
+        <p>ตัวอย่างเว็บไซต์โดยใช้ Semantic HTML</p>
+
+        <!-- เมนู -->
+        <nav>
+            <ul>
+                <li><a href="#homepage">หน้าแรก</a></li>
+                <li><a href="#aboutpage">แนะนำตัว</a></li>
+                <li><a href="#contactpage">ติดต่อ</a></li>
+                <li><a href="#images">รูปภาพ</a></li>
+                <li><a href="#user-form">ข้อมูลผู้ใช้</a></li>
+                <li><a href="#data-table">ตารางข้อมูล</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="homepage">
+            <h2>ยินดีต้อนรับ</h2>
+            <p>นี่คือตัวอย่างโครงสร้างเว็บด้วย Semantic HTML5</p>
+        </section>
+
+        <section id="aboutpage">
+            <h2>แนะนำตัวเอง</h2>
+            <article>
+                <p>
+                    สวัสดีครับ ผมชื่อ : กีรติ วงศ์ใหญ่ <br>
+                    <em>ชื่อเล่น : เบส</em>
+                </p>
+            </article>
+
+            <article>
+                <h3>ทักษะที่มี</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>ขั้นตอนการสร้างเว็บ</h3>
+                <ol>
+                    <li>เตรียมไฟล์ HTML</li>
+                    <li>เขียนโครงสร้างพื้นฐาน</li>
+                    <li>แสดงผลในเบราว์เซอร์</li>
+                </ol>
+            </article>
+        </section>
+
+        <!-- ช่องทางการติดตาม -->
+        <section id="contactpage">
+            <h2>ช่องทางการติดตาม</h2>
+            <p>คุณสามารถติดตามผลงานและติดต่อผมได้ทางช่องทางโซเชียลมีเดียด้านล่างนี้ครับ</p>
+            <ul>
+                <li><a href="https://www.facebook.com/Akaishihoh" target="_blank">ไป Facebook</a></li>
+                <li><a href="https://www.instagram.com/synnado/" target="_blank">ไป Instagram</a></li>
+            </ul>
+        </section>
+
+        <section id="images">
+            <h2>รูปภาพ</h2>
+            <img src="cat.webp" alt="แมว" width="300" height="300"><br>
+            <img src="https://e-cms.rmutl.ac.th/assets/upload/files/2024/05/20240523133414_79844.jpg"
+                 alt="RMUTL Logo" width="200" height="200" title="ภาพlogoประกอบบทเรียน"><br>
+        </section>
+
+        <section id="user-form">
+            <h2>ข้อมูลผู้ใช้</h2>
+            <form>
+                <label for="name">ชื่อ :</label>
+                <input type="text" id="name" name="name">
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <br><br>
+
+                <label for="message">ข้อความแนะนำตัว :</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea>
+                <br><br>
+
+                <label>เพศ :</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">ชาย</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">หญิง</label>
+                <br><br>
+
+                <label for="province">จังหวัด:</label>
+                <select id="province" name="province">
+                    <option>เชียงใหม่</option>
+                    <option>ลำปาง</option>
+                    <option>น่าน</option>
+                </select>
+                <br><br>
+
+                <button type="submit">บันทึกข้อมูล</button>
+            </form>
+        </section>
+
+        <section id="data-table">
+            <h2>ตารางข้อมูล</h2>
+            <table>
+                <caption>ตารางสรุปข้อมูลนักศึกษา</caption>
+                <tr>
+                    <th rowspan="2">ลำดับ</th>
+                    <th colspan="2">ข้อมูลส่วนตัว</th>
+                    <th rowspan="2">คะแนนรวม</th>
+                </tr>
+                <tr>
+                    <th>ชื่อ</th>
+                    <th>อายุ</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>สมชาย</td>
+                    <td>20</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>สมหญิง</td>
+                    <td>22</td>
+                    <td>90</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>
+            ลิขสิทธิ์ &copy; 2025 |
+            ติดต่อ: <a href="mailto:info@example.com">info@example.com</a> |
+            <a href="tel:0812345678">โทรเลย</a>
+        </p>
+    </footer>
+
+</body>
+</html>
